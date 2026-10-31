@@ -1,0 +1,9 @@
+GET /note HTTP/1.1
+Host: 127.0.0.1:8240
+Cookie: session=[REDACTED]
+
+HTTP/1.1 200 OK
+
+Nota privada
+Recordatorio: no compartas credenciales. La nota de este lab contiene el flag.
+SigninBleed{sqli_proxy_decoder}

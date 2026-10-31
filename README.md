@@ -11,10 +11,11 @@ reportan desde los writeups y sus evidencias locales.
 | OrderLeak | BOLA / IDOR | [ORDERKEAK-writeup.md](ORDERKEAK-writeup.md) |
 | Token Forge | JWT | [TOKEN-FORGE-writeup.md](TOKEN-FORGE-writeup.md) |
 | ProfilePeek | IDOR / BOLA por header | [PROFILEPEEK-writeup.md](PROFILEPEEK-writeup.md) |
+| SigninBleed | SQL injection en login | [SIGNINBLEED-writeup.md](SIGNINBLEED-writeup.md) |
 
 ## Pendiente
 
-- **SigninBleed** — pendiente de resolver.
+- No hay laboratorios pendientes documentados.
 
 ## Para próximos laboratorios
 
