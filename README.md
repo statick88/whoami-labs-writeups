@@ -20,6 +20,7 @@ reportan desde los writeups y sus evidencias locales.
 | JUMPING | Pivoting entre redes Docker y SSH | [JUMPING-writeup.md](JUMPING-writeup.md) |
 | PROXY | HTTP request smuggling y escalada con LD_PRELOAD | [PROXY-writeup.md](PROXY-writeup.md) |
 | Matrix | JWT / command injection | [MATRIX-writeup.md](MATRIX-writeup.md) |
+| LABERINTO | SSH / socket tmux | [LABERINTO-writeup.md](LABERINTO-writeup.md) |
 
 ## Pendiente
 
