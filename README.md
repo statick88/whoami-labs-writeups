@@ -5,7 +5,7 @@ reportan desde los writeups y sus evidencias locales.
 
 ## Retos documentados
 
-Hay **14 writeups locales**: 13 ya figuraban en el índice y React Dashboard estaba
+Hay **15 writeups locales**: 14 ya figuraban en el índice y React Dashboard estaba
 omitido. Este registro no acredita por sí solo resolución independiente, envío de
 flags ni puntos en el ranking oficial.
 
@@ -27,6 +27,7 @@ flags ni puntos en el ranking oficial.
 | LABERINTO | SSH / socket tmux | [LABERINTO-writeup.md](LABERINTO-writeup.md) |
 | DevOps React Dashboard | Command injection / RCE | [REACT_LAB-writeup.md](REACT_LAB-writeup.md) |
 | YellowJacket | LFI / exposición de clave SSH | [YELLOWJACKET-writeup.md](YELLOWJACKET-writeup.md) |
+| SHADOWMAP | OSINT / mapeo de superficie | [SHADOWMAP-writeup.md](SHADOWMAP-writeup.md) |
 
 ## Plan de entrenamiento — Comunidad
 
