@@ -1,0 +1,8 @@
+Archivo observado: /opt/db_backup.sh
+
+DB_HOST=172.21.0.2
+SSH_USER=dbadmin
+SSH_PASS=[REDACTED]
+
+El script ejecuta un backup SSH contra el segundo contenedor.
+La contraseña real no se incluye en la evidencia publicada.

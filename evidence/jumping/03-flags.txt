@@ -1,0 +1,5 @@
+Flag intermedia:
+JUMPING{y0u_g0t_m4ch1n3_0n3_n0w_p1v0t}
+
+Flag final:
+JUMPING{p1v0t1ng_suc3ss_ssh_s1u1d_pwn3d}

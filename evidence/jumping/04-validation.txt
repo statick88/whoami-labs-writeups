@@ -1,0 +1,5 @@
+Valor recuperado del segundo objetivo:
+JUMPING{p1v0t1ng_suc3ss_ssh_s1u1d_pwn3d}
+
+Comparación:
+validation=PASS

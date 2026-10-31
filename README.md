@@ -17,6 +17,7 @@ reportan desde los writeups y sus evidencias locales.
 | Bastion Chain | LFI y pivoting entre redes | [BASTION-CHAIN-writeup.md](BASTION-CHAIN-writeup.md) |
 | Cerberus | Cadena WAF / BOLA / command injection / JWT | [CERBERUS-writeup.md](CERBERUS-writeup.md) |
 | OPERATOR | Escalada mediante backup y grupo disk | [OPERATOR-writeup.md](OPERATOR-writeup.md) |
+| JUMPING | Pivoting entre redes Docker y SSH | [JUMPING-writeup.md](JUMPING-writeup.md) |
 
 ## Pendiente
 

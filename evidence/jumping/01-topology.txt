@@ -1,0 +1,12 @@
+Topología reproducida:
+
+jumping-m1 / nexcorp-web
+  net0: 172.20.0.2
+  net1: 172.21.0.3
+  HTTP: 127.0.0.1:18080 -> 8080/tcp
+
+jumping-m2 / nexcorp-db
+  net1: 172.21.0.2
+  SSH: 22/tcp
+
+La red 172.21.0.0/24 se mantuvo interna.
