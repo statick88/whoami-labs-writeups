@@ -1,0 +1,12 @@
+Ruta solicitada directamente:
+GET /api/internal/backup_keys
+
+Resultado:
+HTTP/1.0 403 Forbidden
+Request forbidden by administrative rules.
+
+Configuración relevante observada:
+acl is_internal path_beg /api/internal
+http-request deny if is_internal
+http-request del-header Transfer-Encoding
+server backend1 127.0.0.1:5000

@@ -1,0 +1,6 @@
+Flag de User: proxy{w3lc0m3_t0_th3_fr0nt_l1ne}
+Resultado: [+] Flag de usuario correcta. ¡Buen trabajo!
+
+Flag de Root: root{smuggl1ng_4nd_pr3l04d1ng_ftw}
+Resultado: ¡Felicitaciones! Has comprometido PROXY a nivel Insano.
+Tiempo total: 00h 00m 00s

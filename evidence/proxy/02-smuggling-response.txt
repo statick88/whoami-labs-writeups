@@ -1,0 +1,10 @@
+Técnica: CL.TE / desincronización entre HAProxy y backend HTTP artesanal.
+
+Respuesta interna obtenida:
+HTTP/1.1 200 OK
+{"status": "success", "message": "Internal keys accessed successfully.",
+ "data": {"sys-admin_ssh_key": "[REDACTED]",
+ "sys-admin_password": "[REDACTED]",
+ "note": "Use these credentials to SSH into the box."}}
+
+Clave privada y contraseña real: omitidas.

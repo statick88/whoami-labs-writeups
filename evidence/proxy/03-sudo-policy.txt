@@ -1,0 +1,10 @@
+Cuenta: sys-admin
+Autorización:
+sys-admin ALL=(ALL) NOPASSWD: /usr/bin/firewall-tester
+Defaults env_keep += "LD_PRELOAD"
+
+Binario:
+/usr/bin/firewall-tester
+
+La biblioteca compartida y cualquier material de acceso recuperado se excluyen
+de esta evidencia.

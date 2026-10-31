@@ -18,6 +18,7 @@ reportan desde los writeups y sus evidencias locales.
 | Cerberus | Cadena WAF / BOLA / command injection / JWT | [CERBERUS-writeup.md](CERBERUS-writeup.md) |
 | OPERATOR | Escalada mediante backup y grupo disk | [OPERATOR-writeup.md](OPERATOR-writeup.md) |
 | JUMPING | Pivoting entre redes Docker y SSH | [JUMPING-writeup.md](JUMPING-writeup.md) |
+| PROXY | HTTP request smuggling y escalada con LD_PRELOAD | [PROXY-writeup.md](PROXY-writeup.md) |
 
 ## Pendiente
 
