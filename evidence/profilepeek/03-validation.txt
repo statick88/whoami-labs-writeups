@@ -1,0 +1,5 @@
+Laboratorio: ProfilePeek
+Flag introducida: BURP{idor_header_scope}
+Resultado observado: ¡Felicitaciones! Has comprometido ProfilePeek.
+Tiempo registrado: 00h 04m 08s
+Fecha registrada: 2026-10-31 01:19:57 -0500

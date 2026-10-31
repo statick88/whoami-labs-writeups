@@ -1,0 +1,9 @@
+POST /login HTTP/1.1
+Host: 127.0.0.1:8230
+Content-Type: application/x-www-form-urlencoded
+
+username=alice&password=alice1
+
+HTTP/1.1 302 FOUND
+Location: /profile?uid=1
+Set-Cookie: [REDACTED]
