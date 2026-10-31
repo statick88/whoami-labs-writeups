@@ -1,0 +1,4 @@
+Laboratorio: Cerberus
+Flag: Cerberus{c3rb3rus_full_ch41n_burp_m4st3r}
+Resultado observado: ¡Felicitaciones! Has comprometido Cerberus.
+Tiempo registrado: 00h 00m 00s

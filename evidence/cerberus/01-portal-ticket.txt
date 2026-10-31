@@ -1,0 +1,11 @@
+GET /api/v2/tickets/17 HTTP/1.1
+Host: 127.0.0.1:8288
+X-Forwarded-For: 127.0.0.1
+Cookie: cerberus_session=[REDACTED]
+
+HTTP/1.1 200 OK
+
+{"id":17,"status":"confidential","visibility":"confidential_devops",
+"notes":"Microservicio de staging reubicado en la ruta
+/staging-infra-4091/auth. Agente autorizado de despliegues: deploy_agent.",
+"credentials":"[REDACTED]"}
