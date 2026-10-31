@@ -1,0 +1,9 @@
+Contenedores observados:
+bastion_www    bastion_chain_corp_net,bastion_chain_dmz_net
+bastion_jump   bastion_chain_corp_net,bastion_chain_secure_net
+bastion_secure bastion_chain_secure_net
+
+Direcciones observadas:
+bastion_www:    10.10.1.10 (DMZ), 10.10.2.10 (corp)
+bastion_jump:   10.10.2.20 (corp), 10.10.3.20 (secure)
+bastion_secure: 10.10.3.30 (secure)

@@ -1,0 +1,8 @@
+Objetivo mostrado por el validador: 10.10.2.10
+Resultado:
+🎉 ¡Conquistado!
+Bastion_Chain completado
+Tiempo Total: 1s
+
+Flag:
+PivotLabs{b4st10n_ch41n_c0mpl3t3}

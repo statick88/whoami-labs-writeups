@@ -14,6 +14,7 @@ reportan desde los writeups y sus evidencias locales.
 | SigninBleed | SQL injection en login | [SIGNINBLEED-writeup.md](SIGNINBLEED-writeup.md) |
 | Guestbook | Stored XSS / bypass de validación | [GUESTBOOK-writeup.md](GUESTBOOK-writeup.md) |
 | HACKERS | Reconocimiento y análisis criptográfico | [HACKERS-writeup.md](HACKERS-writeup.md) |
+| Bastion Chain | LFI y pivoting entre redes | [BASTION-CHAIN-writeup.md](BASTION-CHAIN-writeup.md) |
 
 ## Pendiente
 

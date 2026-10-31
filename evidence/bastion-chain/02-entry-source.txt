@@ -1,0 +1,8 @@
+Archivo: /var/www/html/index.php
+
+La entrada acepta el parámetro page y usa file_exists($file) y readfile($file)
+sin una comprobación de contención de directorio.
+
+Archivo público revisado: /home/webops/.inventory
+Resultado: expone nombres de hosts, usuario de bastion y datos operativos.
+Credenciales, claves privadas y tokens: omitidos de esta evidencia.
