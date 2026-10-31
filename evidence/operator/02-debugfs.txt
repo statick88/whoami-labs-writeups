@@ -1,0 +1,5 @@
+Comando:
+debugfs -R "cat /root/flag.txt" /var/backups/raw_system.img
+
+Resultado:
+WebExploitLabs{sh13ldf0rc3_cmd1nj_0rch3str4t0r_2026}

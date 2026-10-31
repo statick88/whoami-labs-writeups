@@ -1,0 +1,8 @@
+Archivo: /var/backups/raw_system.img
+Permisos observados: -rw-r----- root disk
+
+Identidades observadas:
+shieldforce: grupos shieldforce,disk
+sfoperator: grupos sfoperator
+
+Credenciales, hashes y claves: omitidos.

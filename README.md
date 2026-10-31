@@ -16,6 +16,7 @@ reportan desde los writeups y sus evidencias locales.
 | HACKERS | Reconocimiento y análisis criptográfico | [HACKERS-writeup.md](HACKERS-writeup.md) |
 | Bastion Chain | LFI y pivoting entre redes | [BASTION-CHAIN-writeup.md](BASTION-CHAIN-writeup.md) |
 | Cerberus | Cadena WAF / BOLA / command injection / JWT | [CERBERUS-writeup.md](CERBERUS-writeup.md) |
+| OPERATOR | Escalada mediante backup y grupo disk | [OPERATOR-writeup.md](OPERATOR-writeup.md) |
 
 ## Pendiente
 

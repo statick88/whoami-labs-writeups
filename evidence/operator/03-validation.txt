@@ -1,0 +1,4 @@
+Laboratorio: OPERATOR
+Flag: WebExploitLabs{sh13ldf0rc3_cmd1nj_0rch3str4t0r_2026}
+Resultado observado: ¡Felicitaciones! Has comprometido OPERATOR a nivel Difícil.
+Tiempo registrado: 00h 00m 00s
