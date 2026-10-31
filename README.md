@@ -19,6 +19,7 @@ reportan desde los writeups y sus evidencias locales.
 | OPERATOR | Escalada mediante backup y grupo disk | [OPERATOR-writeup.md](OPERATOR-writeup.md) |
 | JUMPING | Pivoting entre redes Docker y SSH | [JUMPING-writeup.md](JUMPING-writeup.md) |
 | PROXY | HTTP request smuggling y escalada con LD_PRELOAD | [PROXY-writeup.md](PROXY-writeup.md) |
+| Matrix | JWT / command injection | [MATRIX-writeup.md](MATRIX-writeup.md) |
 
 ## Pendiente
 
