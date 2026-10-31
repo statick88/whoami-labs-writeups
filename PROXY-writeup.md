@@ -5,7 +5,7 @@
 **Dificultad:** ★★★★★★★★ insano (8 puntos)
 **Fecha:** 2026-10-31
 **Estado:** resuelto
-**Flag de User:** `proxy{w3lc0m3_t0_th3_fr0nt_l1ne}`
+**Flag de User:** `proxy{w3lc0m3_t0_th3_fr0nt_l1n3}`
 **Flag de Root:** `root{smuggl1ng_4nd_pr3l04d1ng_ftw}`
 
 ## Alcance y preparación local

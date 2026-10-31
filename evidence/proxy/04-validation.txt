@@ -1,4 +1,4 @@
-Flag de User: proxy{w3lc0m3_t0_th3_fr0nt_l1ne}
+Flag de User: proxy{w3lc0m3_t0_th3_fr0nt_l1n3}
 Resultado: [+] Flag de usuario correcta. ¡Buen trabajo!
 
 Flag de Root: root{smuggl1ng_4nd_pr3l04d1ng_ftw}
