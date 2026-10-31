@@ -1,9 +1,9 @@
 # YellowJacket — WHOAMI-LABS.COM
 
-**Laboratorio:** YellowJacket  
-**Categoría:** LFI / exposición de clave SSH  
-**Dificultad:** difícil (5 puntos)  
-**Objetivo:** `172.17.0.2`  
+**Laboratorio:** YellowJacket
+**Categoría:** LFI / exposición de clave SSH
+**Dificultad:** difícil (5 puntos)
+**Objetivo:** `172.17.0.2`
 **Estado:** resuelto a nivel de usuario
 
 ## Resumen
