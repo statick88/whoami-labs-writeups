@@ -1,0 +1,18 @@
+docker run -d --name hackers --privileged \
+  --ulimit nproc=65535 \
+  --ulimit nofile=20000:40000 \
+  -p 127.0.0.1:2222:22 \
+  -p 127.0.0.1:8081:80 \
+  -p 127.0.0.1:2121:21 \
+  -p 127.0.0.1:8080:8080 \
+  --hostname gibson hackers:latest
+
+Estado observado:
+status=running
+IP Docker=172.17.0.2
+
+Logs relevantes:
+SSH (puerto 22)
+Apache (puerto 80 - Sitio Principal)
+Apache (puerto 8080 - Dark Web)
+HACK THE PLANET - GIBSON READY

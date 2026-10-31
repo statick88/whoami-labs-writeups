@@ -1,0 +1,6 @@
+docker run ... -p 22:22 -p 80:80 -p 21:21 -p 8080:8080 ...
+
+Error observado:
+failed to set up container networking:
+driver failed programming external connectivity on endpoint hackers:
+failed to bind host port 0.0.0.0:22/tcp: address already in use

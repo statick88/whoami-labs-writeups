@@ -1,0 +1,5 @@
+Comando usado por el validador:
+docker exec hackers cat /run/docker/metrics1.sock
+
+Resultado observado:
+FLAG{crYpt0_4n4lysi5_br0k3_th3_c0d3}

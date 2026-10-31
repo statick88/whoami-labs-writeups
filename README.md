@@ -13,6 +13,7 @@ reportan desde los writeups y sus evidencias locales.
 | ProfilePeek | IDOR / BOLA por header | [PROFILEPEEK-writeup.md](PROFILEPEEK-writeup.md) |
 | SigninBleed | SQL injection en login | [SIGNINBLEED-writeup.md](SIGNINBLEED-writeup.md) |
 | Guestbook | Stored XSS / bypass de validación | [GUESTBOOK-writeup.md](GUESTBOOK-writeup.md) |
+| HACKERS | Reconocimiento y análisis criptográfico | [HACKERS-writeup.md](HACKERS-writeup.md) |
 
 ## Pendiente
 
