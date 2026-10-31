@@ -1,0 +1,5 @@
+Laboratorio: Guestbook
+User: user{XSS_1s_n0t_d34d_y3t}
+Root: root{Byp4ss_Fr0nt3nd_w1th_Burp}
+Resultado observado: [+] Flag de usuario correcta. ¡Buen trabajo!
+Resultado observado: ¡Felicitaciones! Has comprometido Guestbook a nivel Fácil.

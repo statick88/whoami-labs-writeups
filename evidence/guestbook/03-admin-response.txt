@@ -1,0 +1,9 @@
+GET /admin.php HTTP/1.1
+Host: 127.0.0.1:8280
+Cookie: admin_session=[REDACTED]
+
+HTTP/1.1 200 OK
+
+Authentication: SUCCESS.
+Username: [REDACTED]
+Password: [REDACTED]
