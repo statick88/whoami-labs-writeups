@@ -1,0 +1,21 @@
+Escalada: beekeeper puede ejecutar /bin/tar como root sin password.
+tar copia archivos con los permisos de root, saltando 600/700.
+
+--- copia de los tres archivos protegidos ---
+/bin/tar: Removing leading `/' from member names
+/bin/tar: Removing leading `/' from hard link targets
+exit=0
+
+--- piezas de la flag ---
+PIEZA 1 (honeypot.log, paso 03):     H0N3YTR4P{d3c0y_
+PIEZA 2 (worker bash_history):
+echo "d3t3ct3d_3v4s10n_" > /tmp/.flag_part2
+cat /tmp/.flag_part2
+rm /tmp/.flag_part2
+PIEZA 3 (/root/.secret/final.key):
+m4st3r_2026}
+
+--- flag ensamblada y su comparacion con el recurso del validador ---
+ensamblada:  H0N3YTR4P{d3c0y_ d3t3ct3d_3v4s10n_ m4st3r_2026}
+validador:  H0N3YTR4P{d3c0y_d3t3ct3d_3v4s10n_m4st3r_2026}
+COINCIDEN byte a byte

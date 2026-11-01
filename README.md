@@ -5,9 +5,8 @@ reportan desde los writeups y sus evidencias locales.
 
 ## Retos documentados
 
-Hay **15 writeups locales**: 14 ya figuraban en el índice y React Dashboard estaba
-omitido. Este registro no acredita por sí solo resolución independiente, envío de
-flags ni puntos en el ranking oficial.
+Hay **18 writeups locales** listados en la tabla. Este registro no acredita por
+sí solo resolución independiente, envío de flags ni puntos en el ranking oficial.
 
 | Laboratorio | Categoría | Writeup |
 | --- | --- | --- |
@@ -28,6 +27,7 @@ flags ni puntos en el ranking oficial.
 | DevOps React Dashboard | Command injection / RCE | [REACT_LAB-writeup.md](REACT_LAB-writeup.md) |
 | YellowJacket | LFI / exposición de clave SSH | [YELLOWJACKET-writeup.md](YELLOWJACKET-writeup.md) |
 | SHADOWMAP | OSINT / mapeo de superficie | [SHADOWMAP-writeup.md](SHADOWMAP-writeup.md) |
+| STING | Honeypot evasion / SQLi / LFI / sudo tar | [STING-writeup.md](STING-writeup.md) |
 
 ## Plan de entrenamiento — Comunidad
 

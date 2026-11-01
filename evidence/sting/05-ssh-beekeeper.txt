@@ -1,0 +1,13 @@
+SSH real en 31337 (el 22 publicado es nc con banner estatico)
+Usuario: beekeeper (de ssh_backup.conf)  Clave: apiKey de config.php
+
+--- banner ---
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.13
+
+--- login + enumeracion ---
+beekeeper
+uid=1000(beekeeper) gid=1000(beekeeper) groups=1000(beekeeper)
+
+
+User beekeeper may run the following commands on sting:
+    (root) NOPASSWD: /bin/tar
