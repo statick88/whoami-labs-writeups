@@ -1,0 +1,8 @@
+GET /config.php - la clave SSH de beekeeper esta expuesta en JavaScript
+(el panel exige sesion; se obtiene tras la SQLi del paso 02)
+
+var apiKey = "Qu33n0fH1v3"
+
+Tambien muestra la ruta de logs y config del honeypot:
+Log Path:</strong> /opt/honeypot/logs/
+Config Path:</strong> /opt/honeypot/config/

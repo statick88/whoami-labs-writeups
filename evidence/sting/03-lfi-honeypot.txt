@@ -1,0 +1,17 @@
+GET /logs.php - filtro str_replace('../','') unidireccional, bypass con ....//
+Ruta absoluta bloqueada (file[0]=='/'), relativa permitida.
+Con solo dos niveles ....// el servidor responde 'File not found'
+(la app corre en /var/www/html, faltan dos niveles mas).
+
+--- FLAG_PART_1 en /opt/honeypot/logs/honeypot.log ---
+FLAG_PART_1: H0N3YTR4P{d3c0y_
+
+--- /opt/honeypot/config/ssh_backup.conf (LFI) ---
+port=31337
+protocol=ssh
+user=beekeeper
+description=Remote backup access for honeypot data
+
+--- .flag.txt y .secret: señuelos, no la flag ---
+FAKE{n1c3_try_but_wr0ng_fl4g}
+STING{this_is_not_the_real_flag}

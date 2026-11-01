@@ -1,0 +1,13 @@
+POST /index.php - Blind SQLi en login (username concatenado sin sanitizar)
+
+HTTP/1.1 302 Found
+Date: Sun, 01 Nov 2026 02:18:06 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Set-Cookie: PHPSESSID=[REDACTED]; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: dashboard.php
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+
